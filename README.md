@@ -24,6 +24,10 @@
    <a href="#">
 		<img src="https://img.shields.io/static/v1?label=Tests&message=Postman&color=dark&style=for-the-badge&logo=Ghost"  alt="Language: Postman">
 	</a>
+
+   <a href="#">
+		<img src="https://img.shields.io/static/v1?label=Framework&message=Swagger&color=dark&style=for-the-badge&logo=Ghost"  alt="Language: Swagger">
+	</a>
     </p>
 </div>
 
