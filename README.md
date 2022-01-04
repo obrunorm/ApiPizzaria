@@ -49,7 +49,7 @@
   ---
 ### 1. Clone this repository
 ```
-git clone https://github.com/obrunorm/ApiGmailTrello
+git clone https://github.com/obrunorm/ApiPizzaria
 ```
 ---
 ### 2. Install the dependencies
