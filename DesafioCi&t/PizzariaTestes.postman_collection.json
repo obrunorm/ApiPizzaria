@@ -1,0 +1,129 @@
+{
+	"id": "f4e12690-66e8-63f5-515f-78a38412aa00",
+	"name": "PizzariaTestes",
+	"description": "",
+	"order": [
+		"20192333-d283-44b4-d441-efd31b0ad75b",
+		"b3777e30-d7d7-81f7-4eb0-ac2f5ba701b6",
+		"20ec8c77-0497-74da-3315-ce57135b826e",
+		"93c15140-77d7-a399-9d1c-ca2adc8245a6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1641272976827,
+	"owner": "17174589",
+	"public": false,
+	"requests": [
+		{
+			"id": "20192333-d283-44b4-d441-efd31b0ad75b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/pizzas",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641273052719,
+			"name": "Consultar todos os sabores",
+			"description": "",
+			"collectionId": "f4e12690-66e8-63f5-515f-78a38412aa00",
+			"responses": []
+		},
+		{
+			"id": "20ec8c77-0497-74da-3315-ce57135b826e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/pizzas",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641273230482,
+			"name": "Editar sabor",
+			"description": "",
+			"collectionId": "f4e12690-66e8-63f5-515f-78a38412aa00",
+			"responses": [],
+			"rawModeData": "{\r\n    \"nome\" : \"portuguesa\",\r\n    \"descricao\" :\"Pizza portuguesa\",\r\n    \"preco\" : \"R$50.00\"\r\n}"
+		},
+		{
+			"id": "93c15140-77d7-a399-9d1c-ca2adc8245a6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/pizzas/3",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641273350735,
+			"name": "Deletar sabor",
+			"description": "",
+			"collectionId": "f4e12690-66e8-63f5-515f-78a38412aa00",
+			"responses": []
+		},
+		{
+			"id": "b3777e30-d7d7-81f7-4eb0-ac2f5ba701b6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/pizzas",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1641273154023,
+			"name": "Cadastrar novo sabor",
+			"description": "",
+			"collectionId": "f4e12690-66e8-63f5-515f-78a38412aa00",
+			"responses": [],
+			"rawModeData": "{\r\n    \"nome\" : \"portuguesa\",\r\n    \"descricao\" :\"Pizza portuguesa\",\r\n    \"preco\" : \"R$45.00\"\r\n}"
+		}
+	]
+}
