@@ -9,11 +9,11 @@
 		<version>2.5.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.provi</groupId>
-	<artifactId>utra</artifactId>
+	<groupId>com.pizzaria.api</groupId>
+	<artifactId>pizzaria</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>utra</name>
-	<description>Projeto utra</description>
+	<name>pizzaria</name>
+	<description>Projeto ApiPizzaria</description>
 	<properties>
 		<java.version>16</java.version>
 	</properties>
