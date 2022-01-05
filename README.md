@@ -39,7 +39,6 @@
 
 **You must have already installed**
 - [Node.js](https://nodejs.org/en/)
-- [Npm](https://www.npmjs.com/)
 - [MySQL](https://dev.mysql.com/downloads/)
 
 **Recommendations**
