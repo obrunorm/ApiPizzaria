@@ -21,7 +21,7 @@ import javax.validation.constraints.Size;
 		@Size(min = 5, max = 100, message = "O atributo nome deve conter no mínimo 05 e no máximo 100 caracteres")
 		private String nome;
 
-		@Size(min = 10, max = 500, message = "O atributo escrição deve conter no mínimo 10 e no máximo 500 caracteres")
+		@Size(min = 10, max = 500, message = "O atributo descrição deve conter no mínimo 10 e no máximo 500 caracteres")
 		private String descricao;
 
 		private String preco;

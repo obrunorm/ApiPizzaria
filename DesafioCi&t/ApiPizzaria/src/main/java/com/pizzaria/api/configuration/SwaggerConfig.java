@@ -14,8 +14,6 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.service.Response;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
-
-
 @Configuration
 public class SwaggerConfig {
 @Bean
@@ -35,17 +33,17 @@ return new Docket(DocumentationType.SWAGGER_2)
 }
 public static ApiInfo metadata() {
 return new ApiInfoBuilder()
-.title("API - Pizzaria")
-.description("Projeto API Spring - Pizzaria")
+.title("API - Blog Pessoal")
+.description("Projeto API Spring - Blog Pessoal")
 .version("1.0.0")
 .license("Apache License Version 2.0")
-.licenseUrl("https://github.com/obrunorm/ApiPizzaria")
+.licenseUrl("https://github.com/obrunorm")
 .contact(contact())
 .build();
 }
 private static Contact contact() {
 return new Contact("Bruno Rodrigues",
-"https://github.com/obrunorm",
+"https://github.com/obrunorm/ApiPizzaria",
 "obruno26@outlook.com");
 }
 private static List<Response> responseMessage() {

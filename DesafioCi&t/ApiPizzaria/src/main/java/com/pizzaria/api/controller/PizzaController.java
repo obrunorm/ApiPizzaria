@@ -45,7 +45,7 @@ public class PizzaController {
 	}
 
 	@PostMapping
-	public ResponseEntity<Pizza> postTema(@RequestBody Pizza pizza) {
+	public ResponseEntity<Pizza> postPizza(@RequestBody Pizza pizza) {
 		return ResponseEntity.status(HttpStatus.CREATED).body(pizzaRepository.save(pizza));
 	}
 
@@ -60,4 +60,3 @@ public class PizzaController {
 		pizzaRepository.deleteById(id);
 	}
 	}
-
