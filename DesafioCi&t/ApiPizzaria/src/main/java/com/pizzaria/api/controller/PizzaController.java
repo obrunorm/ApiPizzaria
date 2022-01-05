@@ -52,7 +52,6 @@ public class PizzaController {
 	@PutMapping
 	public ResponseEntity<Pizza> putPizza(@RequestBody Pizza pizza) {
 		return ResponseEntity.status(HttpStatus.OK).body(pizzaRepository.save(pizza));
-
 	}
 
 	@DeleteMapping("/{id}")

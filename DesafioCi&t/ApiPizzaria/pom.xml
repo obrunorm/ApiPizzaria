@@ -9,11 +9,11 @@
 		<version>2.5.4</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pizzaria.api</groupId>
-	<artifactId>pizzaria</artifactId>
+	<groupId>br.com.provi</groupId>
+	<artifactId>utra</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>pizzaria</name>
-	<description>Projeto ApiPizzaria</description>
+	<name>utra</name>
+	<description>Projeto utra</description>
 	<properties>
 		<java.version>16</java.version>
 	</properties>
@@ -29,11 +29,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
 		<!-- Dependência para Criptografia da senha -->
