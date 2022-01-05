@@ -56,7 +56,7 @@ public class PizzaController {
 	}
 
 	@DeleteMapping("/{id}")
-	public void deletePizza(@PathVariable long id) {
+	public void pizzaDelete(@PathVariable long id) {
 		pizzaRepository.deleteById(id);
 	}
 	}

@@ -1,14 +1,10 @@
 package com.pizzaria.api.model;
 
-import java.util.Date;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -30,8 +26,22 @@ import javax.validation.constraints.Size;
 
 		private String preco;
 		
-		@Temporal(TemporalType.TIMESTAMP)
-		private Date data = new java.sql.Date(System.currentTimeMillis());
+		
+		//Construtores para teste
+
+		public Pizza(long id, String nome, String descricao, String preco) {
+			
+			this.id = id;
+			this.nome = nome;
+			this.descricao = descricao;
+			this.preco = preco;
+		}
+		
+		//Construtores nulo para teste
+		public Pizza() { }
+		
+		
+		//métodos
 
 		public long getId() {
 			return id;
@@ -57,14 +67,6 @@ import javax.validation.constraints.Size;
 			this.descricao = descricao;
 		}
 
-
-		public Date getData() {
-			return data;
-		}
-
-		public void setData(Date data) {
-			this.data = data;
-		}
 
 		public String getPreco() {
 			return preco;
