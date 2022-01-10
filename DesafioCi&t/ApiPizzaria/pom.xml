@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.pizzaria.api</groupId>
-	<artifactId>utra</artifactId>
+	<artifactId>pizzaria</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ApiPizzaria</name>
 	<description>Projeto pizzaria</description>
